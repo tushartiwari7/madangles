@@ -1,0 +1,105 @@
+{
+    "question": "what is your name",
+    "answer": "Tushar",
+    "questions": [
+        {
+            "id": 1,
+            "ques":"If a triangle has 2 sides with equal lengths and 60 degree angle between them. What is the type of triangle?",
+            "ans": [
+                { "option": "Equilateral", "isCorrect": false },
+                { "option": "Isosceles", "isCorrect": false },
+                { "option": "Both", "isCorrect": true }
+            ]
+        },{
+            "id": 2,
+            "ques":"A triangle in which two sides are equal is called:",
+            "ans": [
+                { "option": "Scalene", "isCorrect": false },
+                { "option": "Isosceles", "isCorrect": true },
+                { "option": "Equilateral", "isCorrect": false },
+                { "option": "None of these", "isCorrect": false }
+            ]
+        },
+        {
+            "id": 3,
+            "ques":"Sides of two similar triangles are in the ratio 4: 9. Areas of these triangles are in the ratio?",
+            "ans": [
+                { "option": "2:3", "isCorrect": false },
+                { "option": "4:9", "isCorrect": false },
+                { "option": "81:16", "isCorrect": false },
+                { "option": "16:81", "isCorrect": true }
+            ]
+        },
+        {
+            "id": 4,
+            "ques":"A line segment joining a vertex of a triangle to the midpoint of its opposite side is called a................of the triangle ",
+            "ans": [
+                { "option": "Altitude", "isCorrect": false  },
+                { "option": "Median", "isCorrect": true },
+                { "option": "Angle Bisector", "isCorrect": false },
+                { "option": "Right Bisector", "isCorrect": false }
+            ]
+        },
+        {
+            "id": 5,
+            "ques":"A right angled triangle is that in which one of the angles has measure equal to:  ",
+            "ans": [    
+                { "option": "80 Degree ", "isCorrect": false },
+                { "option": "45 Degree ", "isCorrect": false },
+                { "option": "90 Degree ", "isCorrect": true },
+                { "option": "60 Degree ", "isCorrect": false }
+            ]
+        },
+        {
+            "id": 6,
+            "ques": "A triangle can be constructed by taking its sides as ",
+            "ans":[
+                { "option": " 1.8 cm, 2.6 cm, 4.4 cm", "isCorrect": false },
+                { "option": " 2 cm, 3 cm, 4cm", "isCorrect": true },
+                { "option": " 2.4 cm, 2.4 cm, 6.4 cm", "isCorrect": false },
+                { "option": " 3.2 cm, 2.3 cm, 5.5 cm", "isCorrect": false }
+            ]
+        },
+        {
+            "id": 7,
+            "ques": "For two triangles, if two angles and the included side of one triangle are equal to two angles and the included side of another triangle. Then the congruency rule is:",
+            "ans":[
+                { "option": "SSS", "isCorrect": false },
+                { "option": "ASA", "isCorrect": true },
+                { "option": "SAS", "isCorrect": false },
+                { "option": "None of the above", "isCorrect": false }
+            ]
+        },
+        {
+            "id": 8,
+            "ques":"Which of the following triangles have the same side lengths?",
+            "ans": [
+                { "option": "Scalene", "isCorrect": false },
+                { "option": "Isosceles", "isCorrect": false },
+                { "option": "Equilateral", "isCorrect": true },
+                { "option": "None of these", "isCorrect": false }
+            ]
+        },
+        {
+            "id": 9,
+            "ques":" The angles opposite to equal sides of a triangle are:",
+            "ans": [
+                { "option": "Equal", "isCorrect": true },
+                { "option": "Unequal", "isCorrect": false },
+                { "option": "Supplimentary angles", "isCorrect": false },
+                { "option": "Complimentary angles", "isCorrect": false }
+            ]
+        },
+        {
+            "id": 10,
+            "ques":"In a right triangle, the longest side is:",
+            "ans": [
+                { "option": "Perpendicular", "isCorrect": false },
+                { "option": "Hypotenuse", "isCorrect": true },
+                { "option": "Base", "isCorrect": false },
+                { "option": "None of the above", "isCorrect": false }
+            ]
+        }
+
+    ]
+}

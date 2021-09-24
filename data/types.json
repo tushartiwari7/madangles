@@ -1,0 +1,30 @@
+{
+    "title": "Welcome to ",
+    "highlighted": "Mad Angles",
+    "types": [
+        {
+            "id": "1",
+            "title": "Play Quiz",
+            "description": "Test your Knowledge of triangles",
+            "link": "quiz"
+        },
+        {
+            "id": "2",
+            "title": "Calculate Area",
+            "description": "Calculate area of a triangle using 3 sides",
+            "link": "calculate-area"
+        },
+        {
+            "id": "3",
+            "title": "Calculate Hypotenuse",
+            "description": "Calculate hypotenuse of a triangle & learn it's formula",
+            "link": "calculate-hypotenuse"
+        },
+        {
+            "id": "4",
+            "title": "Angles of Triangles?",
+            "description": "Check whether 3 angles can form a triangle",
+            "link": "angles-of-triangle"
+        }
+    ]
+}

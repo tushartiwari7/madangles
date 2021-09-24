@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 70% 5% 5% 5%;
+    }
+    .gridroot {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .inputgrid > div{
+        width: 80vw;
+    }
+    .outputgrid > div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .result {
+        font-size: 16px;
+        width: 70vw;
+    }
+}
+
+.link {
+    margin: 0 0 5rem 0;
+}
+.goBack {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem ;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    margin-top: 50px;
+}
+.goBack:hover {
+    background: #f0f0f0;
+}
+.title {
+    padding-top: 30px;
+}
+.subtitle {
+    letter-spacing: 1px;
+    font-style: italic;
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+}
+
+.image {
+    width: 350px;
+    background-size: cover;
+    transform:translateY(-40px);
+}
