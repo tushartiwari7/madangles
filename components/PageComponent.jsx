@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from '../styles/Category.module.css'
 //material ui
 import makeStyles from '@material-ui/core/styles/makeStyles';
@@ -8,7 +7,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import TextField  from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-//script
+//scripts
 import getArea from '../scripts/getArea';
 import CardMedia  from '@material-ui/core/CardMedia';
 import { CardContent, Typography } from '@material-ui/core';
@@ -51,6 +50,7 @@ const PageComponent = ({
     const [second, setsecond] = useState(null);
     const [third, setthird] = useState(null);
     const [result, setresult] = useState(null);
+        
     return (
         <div className={` ${classes.root} ${styles.container}`} style={{width: '90%'}} >
             <Link href="/" className={styles.link} >
@@ -79,7 +79,6 @@ const PageComponent = ({
                                 break;
                         }
 
-                        // setresult(algorithm(first,second,third));
                     }} >
                         <Grid container spacing = {2}> 
                             <Grid item xs={10} >
@@ -120,6 +119,7 @@ const PageComponent = ({
                             <Grid item xs={10}>
                                 <Button
                                     type="submit"
+                                    disabled={id ===3 ? !(first>0 && second>0) : !(first>0 && second>0 && third>0)}
                                     fullWidth
                                     variant="contained"
                                     color="primary"
